@@ -7,9 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const name = document.getElementById("signupName").value.trim();
       const email = document.getElementById("signupEmail").value.trim();
       const password = document.getElementById("signupPassword").value;
-      const confirmPassword = document.getElementById(
-        "signupConfirmPassword"
-      ).value;
+      const confirmPassword = document.getElementById("signupConfirmPassword").value;
 
       if (password !== confirmPassword) {
         alert("Passwords do not match");
