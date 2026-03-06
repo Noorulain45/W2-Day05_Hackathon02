@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- css -->
+    <style>
+      .landing-bg {
+        position: relative;
+        background-image: url("./Assets/Pg1-bg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .landing-bg::before {
+        content: "";
+        position: absolute;
+        inset: 0; /* covers entire container */
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.4
+        ); /* black overlay with 40% opacity */
+        z-index: 1;
+      }
+
+      .landing-bg > * {
+        position: relative;
+        z-index: 2; /* keeps your content above overlay */
+      }
+    </style>
+
+    <title>Quiz App</title>
+  </head>
+  <body class="font-Manrope">
+    <main class="min-h-screen w-full pb-20">
+      <header class="w-full flex justify-between px-10 items-center py-4 border-b-2 container mx-auto">
+        
+        <!-- logo  -->
+         <div class="flex gap-x-3 h-[20px] item-center">
+            <img src="./Assets/logo.png" alt="" class="w-4 h-4 mt-2"/>
+            <h1 class="text-lg font-manrope">QuizMaster</h1>
+        </div>
+        
+        <!-- navigation  through js-->
+        <nav class="flex gap-x-3 items-center">
+            <ul id="desktopMenu" class="hidden md:flex justify-between text-sm gap-x-9"> </ul>
+            
+            <!-- user controls through js -->
+            <div class="flex gap-x-3 items-center" id="userControls"></div>
+            
+            <!-- mobile menu toggle  -->
+            <div>
+                <button id="menuToggle" class="md:hidden text-2xl text-gray-700">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+<!-- Mobile Menu -->
+<div class="md:hidden">
+  <ul id="mobileMenu" class="hidden flex-col w-full bg-white shadow-md px-6 py-4 rounded-b-xl text-sm gap-y-3 transition-all duration-300 ease-in-out z-50">
+  </ul>
+</div>
+
+      <!-- Hero Section  -->
+      <section class="bg-white max-w-[960px] mx-auto mt-9">
+        <div class="landing-bg w-full h-[450px] mx-auto flex flex-col justify-end items-center text-white gap-y-5">
+          <h1 class="text-center text-3xl md:text-5xl font-extrabold font-manrope">
+            Welcome to QuizMaster
+          </h1>
+          <p class="text-center text-base px-6">
+            Test your knowledge with our engaging quizzes. Compete with friends
+            and climb the leaderboard. Start your quiz journey today!
+          </p>
+          <!-- connecting signup page -->
+          <a href="./SignUp.html" class="p-3 font-bold bg-blue-600 mx-auto rounded-lg mb-10" id="getStarted">
+            Get Started
+          </a>
+        </div>
+
+        <!-- Key Features Section  -->
+        <div class="w-full text-black mt-12 space-y-6 px-4">
+          <h1 class="text-3xl font-extrabold">Key Features</h1>
+          <p class="">
+            Explore the exciting features that make QuizMaster the ultimate quiz
+            app.
+          </p>
+
+          <!-- Features Grid  -->
+          <div class="flex flex-col md:flex-row gap-2 w-full px-2 mx-auto">
+            <div class="border-[1px] border-gray-300 rounded-lg h-[157px] md:w-[301px] p-4 space-y-3">
+              <img src="./Assets/vectors/clock.png" alt="" />
+              <h1 class="font-bold">Timed Quizzes</h1>
+              <p class="text-[#61738A] text-sm">
+                Challenge yourself with timed quizzes to test your speed and
+                accuracy.
+              </p>
+            </div>
+
+            <!-- Feature 2  -->
+            <div class="border-[1px] border-gray-300 rounded-lg h-[157px] md:w-[301px] p-4 space-y-3">
+              <img src="./Assets/vectors/trophy.png" alt="" />
+              <h1 class="font-bold">Leaderboard</h1>
+              <p class="text-[#61738A] text-sm">
+                Compete with friends and other users to see who can achieve the
+                highest scores.
+              </p>
+            </div>
+
+            <!-- Feature 3  -->
+            <div class="border-[1px] border-gray-300 rounded-lg h-[157px] md:w-[301px] p-4 space-y-3">
+              <img src="./Assets/vectors/progress.png" alt="" />
+              <h1 class="font-bold">Progress Tracking</h1>
+              <p class="text-[#61738A] text-sm">
+                Track your progress and see how you improve over time with
+                detailed performance reports.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./JS Logics/NavBar.js"></script>
+  </body>
+</html>

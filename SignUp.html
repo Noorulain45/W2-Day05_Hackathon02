@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <title>Signup</title>
+  </head>
+  <body class="font-manrope">
+    <main class="min-h-screen w-full mx-auto">
+      <header
+  class="w-full flex justify-between px-10 items-center py-2 border-b-2 container mx-auto"
+>
+  <!-- logo  -->
+  <div class="flex gap-x-3 h-[20px] item-center">
+    <!-- <img src="./Assets/logo.png" alt="" class="w-4 h-4 mt-2" /> -->
+    <h1 class="text-lg font-bold">Quiz App</h1>
+  </div>
+
+  <nav class="flex gap-x-3 items-center">
+    <ul id="desktopMenu" class="hidden md:flex justify-between text-sm gap-x-9">
+      <!-- Dynamic Links Here -->
+    </ul>
+
+    <div class="flex gap-x-3 items-center" id="userControls">
+    </div>
+
+    <div>
+      <button id="menuToggle" class="md:hidden text-2xl text-gray-700">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- Mobile Menu -->
+<div class="md:hidden">
+  <ul id="mobileMenu" class="hidden flex-col w-full bg-white shadow-md px-6 py-4 rounded-b-xl text-sm gap-y-3 transition-all duration-300 ease-in-out z-50">
+  </ul>
+</div>
+
+      <section class="max-w-[960px] mx-auto mt-10 text-center">
+        <h1 class="text-center font-bold text-3xl mb-8">Create your account</h1>
+
+        <!-- input fields -->
+        <form id="signupForm" class="flex flex-col items-center lg:items-start space-y-4 ">
+          <input id="signupName" type="text" placeholder="Full Name" required class="border border-gray-300 md:w-[420px] h-[50px] px-4 rounded-lg"/>
+          <input id="signupEmail" type="email" placeholder="Email Address" required class="border border-gray-300 md:w-[420px] h-[50px] px-4 rounded-lg"/>
+          <input id="signupPassword" type="password" placeholder="Password" required class="border border-gray-300 md:w-[420px] h-[50px] px-4 rounded-lg"/>
+          <input id="signupConfirmPassword" type="password" placeholder="Confirm Password" required class="border border-gray-300 md:w-[420px] h-[50px] px-4 rounded-lg"/>
+          <button type="submit" class="md:w-[420px] h-[35px] bg-blue-600 text-white text-sm rounded-lg px-2">
+            Sign Up
+          </button>
+        </form>
+        <div class="w-full text-center mt-6">
+          <p class="text-sm text-[#61738A]">
+            Already have an Account?
+            <a href="./signin.html" class="text-blue-600">Sign in</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="JS Logics/Authentication.js"></script>
+    <script src="JS Logics/NavBar.js"></script>
+  </body>
+</html>

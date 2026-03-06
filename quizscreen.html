@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    
+    <title>Quiz Screen</title>
+</head>
+<body class="font-manrope">
+  <section class="max-w-[960px] mx-auto min-h-screen pb-10 px-5">
+    <!-- Progress -->
+    <p class="font-medium text-base pt-5">Progress</p>
+    <div class="w-full bg-gray-400 h-2 rounded-lg mt-3">
+      <div id="progressBar" class="bg-black h-2 rounded-lg" style="width:0%"></div>
+    </div>
+
+    <!-- Timer -->
+    <div class="w-full flex flex-col md:flex-row justify-between mt-4 gap-y-3">
+      <div>
+        <div class="bg-[#F0F2F5] timer-box md:w-[200px] lg:w-[300px] h-14 text-lg font-bold flex items-center justify-center rounded-lg">00</div>
+        <p class="text-center">Hours</p>
+      </div>
+      <div>
+        <div class="bg-[#F0F2F5] timer-box md:w-[200px] lg:w-[300px] h-14 text-lg font-bold flex items-center justify-center rounded-lg">01</div>
+        <p class="text-center">Minutes</p>
+      </div>
+      <div>
+        <div class="bg-[#F0F2F5] timer-box md:w-[200px] lg:w-[300px] h-14 text-lg font-bold flex items-center justify-center rounded-lg">00</div>
+        <p class="text-center">Seconds</p>
+      </div>
+    </div>
+
+    <!-- Quiz Container -->
+    <div id="quizContainer" class="mt-8"></div>
+  </section>
+
+  <script src="JS Logics/quizscreen.js"></script>
+  <script src="JS Logics/quizselection.js"></script>
+  <script src="JS Logics/results.js"></script>
+</body>
+</html>

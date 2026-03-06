@@ -1,0 +1,264 @@
+{
+  "quizzes": {
+    "literature": [
+      {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Which novel begins with 'Call me Ishmael'?",
+        "options": ["Moby Dick", "Jane Eyre", "1984", "The Great Gatsby"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Who is the author of 'Pride and Prejudice'?",
+        "options": ["Emily Brontë", "Jane Austen", "George Eliot", "Mary Shelley"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the main theme of George Orwell’s '1984'?",
+        "options": ["Freedom", "Totalitarianism", "Romance", "Adventure"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which poet wrote 'The Raven'?",
+        "options": ["Robert Frost", "Walt Whitman", "Edgar Allan Poe", "T.S. Eliot"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Who wrote 'The Catcher in the Rye'?",
+        "options": ["J.D. Salinger", "F. Scott Fitzgerald", "John Steinbeck", "Ernest Hemingway"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the genre of 'The Hobbit'?",
+        "options": ["Horror", "Fantasy", "Drama", "Sci-Fi"],
+        "correctIndex": 1
+      },
+      {
+        "question": "In which century was Chaucer's 'Canterbury Tales' written?",
+        "options": ["14th", "15th", "13th", "16th"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "Toni Morrison", "Alice Walker", "Zora Neale Hurston"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the name of Sherlock Holmes’ assistant?",
+        "options": ["Watson", "Smith", "Moriarty", "Hudson"],
+        "correctIndex": 0
+      }
+    ],
+    "general": [
+      {
+        "question": "What is the capital of Canada?",
+        "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the smallest prime number?",
+        "options": ["0", "1", "2", "3"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which language has the most native speakers?",
+        "options": ["English", "Mandarin", "Spanish", "Hindi"],
+        "correctIndex": 1
+      },
+      {
+        "question": "How many continents are there?",
+        "options": ["5", "6", "7", "8"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["China", "Japan", "South Korea", "Thailand"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the hardest natural substance?",
+        "options": ["Gold", "Iron", "Diamond", "Platinum"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What currency is used in the UK?",
+        "options": ["Dollar", "Euro", "Pound Sterling", "Franc"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which planet is closest to the sun?",
+        "options": ["Venus", "Earth", "Mercury", "Mars"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What is the largest mammal?",
+        "options": ["Elephant", "Whale Shark", "Blue Whale", "Giraffe"],
+        "correctIndex": 2
+      },
+      {
+        "question": "How many sides does a hexagon have?",
+        "options": ["5", "6", "7", "8"],
+        "correctIndex": 1
+      }
+    ],
+    "mathematics": [
+      {
+        "question": "What is 7 x 6?",
+        "options": ["42", "36", "48", "54"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the square of 9?",
+        "options": ["81", "72", "64", "90"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the value of pi (π) up to two decimal places?",
+        "options": ["3.12", "3.14", "3.15", "3.13"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is 100 ÷ 4?",
+        "options": ["20", "25", "30", "40"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is 11 squared?",
+        "options": ["121", "111", "122", "101"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What is the cube root of 27?",
+        "options": ["2", "3", "4", "5"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the sum of angles in a triangle?",
+        "options": ["180°", "360°", "90°", "270°"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What is 0 divided by any number?",
+        "options": ["1", "Undefined", "0", "Infinity"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What is the next prime after 7?",
+        "options": ["9", "10", "11", "12"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What is 3 factorial (3!)?",
+        "options": ["3", "6", "9", "12"],
+        "correctIndex": 1
+      }
+    ],
+    "history": [
+      {
+        "question": "Who was the first human to step on the moon?",
+        "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "John Glenn"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What year did World War I begin?",
+        "options": ["1912", "1914", "1916", "1918"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which empire was ruled by Julius Caesar?",
+        "options": ["Greek", "Egyptian", "Roman", "Persian"],
+        "correctIndex": 2
+      },
+      {
+        "question": "When did the Berlin Wall fall?",
+        "options": ["1985", "1989", "1991", "1993"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Who was the founder of the Mughal Empire?",
+        "options": ["Babur", "Akbar", "Aurangzeb", "Shah Jahan"],
+        "correctIndex": 0
+      },
+      {
+        "question": "What event began on July 28, 1914?",
+        "options": ["WWI", "WWII", "Cold War", "American Civil War"],
+        "correctIndex": 0
+      },
+      {
+        "question": "Who was Abraham Lincoln?",
+        "options": ["1st President", "16th President", "22nd President", "26th President"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Where was Napoleon Bonaparte from?",
+        "options": ["Spain", "Italy", "France", "Germany"],
+        "correctIndex": 2
+      },
+      {
+        "question": "When was Pakistan formed?",
+        "options": ["1946", "1947", "1948", "1950"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What was the Titanic?",
+        "options": ["Warship", "Submarine", "Passenger ship", "Cargo ship"],
+        "correctIndex": 2
+      }
+    ],
+    "science": [
+      {
+        "question": "What planet is closest to the sun?",
+        "options": ["Earth", "Venus", "Mercury", "Mars"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What is the boiling point of water at sea level?",
+        "options": ["90°C", "95°C", "100°C", "105°C"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What is the human body's largest organ?",
+        "options": ["Liver", "Skin", "Heart", "Lungs"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What gas do plants use for photosynthesis?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "correctIndex": 1
+      },
+      {
+        "question": "Which vitamin is produced by sunlight?",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+        "correctIndex": 3
+      },
+      {
+        "question": "What organ filters blood in the human body?",
+        "options": ["Heart", "Kidney", "Lungs", "Liver"],
+        "correctIndex": 1
+      },
+      {
+        "question": "What is the center of an atom called?",
+        "options": ["Electron", "Proton", "Nucleus", "Neutron"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which is a non-renewable energy source?",
+        "options": ["Solar", "Wind", "Coal", "Hydro"],
+        "correctIndex": 2
+      },
+      {
+        "question": "What is Newton famous for?",
+        "options": ["Relativity", "Evolution", "Gravity", "Magnetism"],
+        "correctIndex": 2
+      },
+      {
+        "question": "Which blood cells fight infection?",
+        "options": ["Red", "White", "Platelets", "Plasma"],
+        "correctIndex": 1
+      }
+    ]
+  }
+}
