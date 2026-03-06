@@ -23,7 +23,4 @@ DOM manipulation with JavaScript
 Working with external data using JSON
 Creating responsive layouts
 
-[live demo]
-Organizing project files effectively
-
-Building real-world UI components
+[live demo](https://w2-day05-hackathon02.vercel.app/)
