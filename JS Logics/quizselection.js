@@ -51,5 +51,5 @@ function capitalize(str) {
 function selectQuiz(type, quizData) {
   localStorage.setItem("selectedQuiz", type);
   localStorage.setItem("quizData", JSON.stringify(quizData));
-  window.location.href = "quizScreen.html";
+  window.location.href = "quizscreen.html";
 }
