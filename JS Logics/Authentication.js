@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Redirect to intended page or default
         const redirectPage =
-          localStorage.getItem("redirectAfterLogin") || "quizSelection.html";
+          localStorage.getItem("redirectAfterLogin") || "QuizSelection.html";
         localStorage.removeItem("redirectAfterLogin");
         window.location.href = redirectPage;
       } else {

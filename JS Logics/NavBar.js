@@ -74,7 +74,7 @@ const loggedOutLinks = `
 
 
   const protectedPages = [
-    "quizSelection.html",
+    "QuizSelection.html",
     "MyProfile.html",
   ];
   const currentPage = window.location.pathname.split("/").pop();
@@ -88,7 +88,7 @@ const loggedOutLinks = `
       event.preventDefault();
 
       if (isLoggedIn) {
-        window.location.href = "./quizSelection.html";
+        window.location.href = "./QuizSelection.html";
       } else {
         window.location.href = "./SignUp.html";
       }
