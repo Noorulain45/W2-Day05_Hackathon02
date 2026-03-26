@@ -28,5 +28,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function reviewAnswers() {
-  window.location.href = "review.html"; // <-- Changed from quizScreen.html
+  window.location.href = "review.html"; 
 }
